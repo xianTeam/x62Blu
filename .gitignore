@@ -38,3 +38,7 @@ npm-debug.log
 jsconfig.json
 *.sublime-workspace
 .idea
+
+# deploy
+#
+deploy
