@@ -1,0 +1,31 @@
+{
+  "name": "react-native-xian62-bluetooth",
+  "version": "0.1.0",
+  "description": "react-native-xian62-bluetooth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curryTeam/react-native-xian62-bluetooth.git"
+  },
+  "keywords": [
+    "bluetooth",
+    "react-native",
+    "print"
+  ],
+  "author": "curry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curryTeam/react-native-xian62-bluetooth/issues"
+  },
+  "homepage": "https://github.com/curryTeam/react-native-xian62-bluetooth#readme",
+  "dependencies": {
+    "buffer": "^4.6.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.40",
+    "underscore": "^1.8.3"
+  }
+}
