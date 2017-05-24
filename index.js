@@ -7,7 +7,7 @@ const Util = require('./common/utility');
 
 let XIAN62Bluetooth = NativeModules.XIAN62Bluetooth;
 if(Platform.OS === 'ios'){
-    XIAN62Bluetooth = NativeModules.XIAN62Bluetooth;
+    XIAN62Bluetooth = NativeModules.BluetoothSerial;
 }
 
 /**
