@@ -5,7 +5,7 @@ const RECEIPT = require('./common/receipt');
 const LABEL = require('./common/label');
 const Util = require('./common/utility');
 
-let XIAN62Bluetooth = NativeModules.XIAN62Bluetooth;
+let XIAN62Bluetooth = NativeModules.GMBluetooth;
 if(Platform.OS === 'ios'){
     XIAN62Bluetooth = NativeModules.BluetoothSerial;
 }
